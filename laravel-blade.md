@@ -27,3 +27,9 @@ php artisan make:model -mrc Chirp
 php artisan db:show
 php artisan db:table users
 ```
+### Tinker
+> Cada linha é um comando!
+```bash
+php artisan tinker //eixt() ou ctrl+c para sair.
+App\Models\Chirp::all();
+```
